@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('cloud/digitalocean', [
+    'as' => 'digitalocean', 'uses' => 'test@digitalocean'
+]);

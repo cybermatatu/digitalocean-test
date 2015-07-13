@@ -22,7 +22,7 @@ return [
     |
     */
 
-    'default' => 'main',
+    'default' => 'buzz',
 
     /*
     |--------------------------------------------------------------------------
@@ -38,19 +38,19 @@ return [
 
     'connections' => [
 
-        'main' => [
+        'guzzle5' => [
             'driver'  => 'guzzle5',
-            'token'   => env('your-token', 'DIGITALOCEAN_TOKEN'),
+            'token'   => env('DIGITALOCEAN_TOKEN'),
         ],
 
-        'other' => [
+        'guzzle' => [
             'driver'  => 'guzzle',
-            'token'   => 'your-token',
+            'token'   => env('DIGITALOCEAN_TOKEN'),
         ],
 
-        'alternative' => [
+        'buzz' => [
             'driver'  => 'buzz',
-            'token'   => 'your-token',
+            'token'   => env('DIGITALOCEAN_TOKEN'),
         ],
 
     ],
