@@ -8,7 +8,6 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
         "graham-campbell/digitalocean": "~2.0",
-        "guzzlehttp/guzzle": "~5.0",
         "kriswallsmith/buzz": "~0.10"
     },
     "require-dev": {

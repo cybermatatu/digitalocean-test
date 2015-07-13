@@ -90,19 +90,25 @@ class test extends Controller
         //print_r(DigitalOcean::droplet()->getUpgrades());
 
         // return the Droplet entity 123
-        //print_r(DigitalOcean::droplet()->getById(1484845));
+        print_r(DigitalOcean::droplet()->getById(1484845));
 
         // create and return the created Droplet entity
         //print_r(DigitalOcean::droplet()->create('kamau-2014', 'nyc1', '512mb', 78449676388));
 
         // create and return the created Droplet entity using an image slug
-        print_r(DigitalOcean::droplet()->create('kamau2014', 'nyc1', '512mb', 'ubuntu-14-04-x64'));
+        //print_r(DigitalOcean::droplet()->create('kamau2014', 'sfo1', '512mb', 'ubuntu-14-04-x64'));
 
         // delete the droplet 123
-        //print_r(DigitalOcean::droplet()->delete(123));
+        //print_r(DigitalOcean::droplet()->delete(6123868));
 
         // return a collection of Kernel entity
-        //print_r(DigitalOcean::droplet()->getAvailableKernels(123));
+        //print_r(DigitalOcean::droplet()->getAvailableKernels(6123868));
+
+        // power on droplet 123 and return the Action entity
+        //print_r(DigitalOcean::droplet()->powerOn(6123868));
+
+        // power off droplet 123 and return the Action entity
+        //print_r(DigitalOcean::droplet()->powerOff(6123868));
 
     }
 }
