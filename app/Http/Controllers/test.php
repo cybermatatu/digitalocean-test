@@ -23,17 +23,17 @@ class test extends Controller
 
     public function digitalocean() {
 
-        echo '<pre>';
+        //echo '<pre>';
         //print_r(DigitalOcean::size()->getAll());
 
         /******* Return the Account API *********/
         //print_r(DigitalOcean::account());
         //print_r(DigitalOcean::account()->getUserInformation());
         /************ Get Account Information **************/
-        echo 'Email: '.DigitalOcean::account()->getUserInformation()->email."\n";
-        echo 'Droplet Limit: '.DigitalOcean::account()->getUserInformation()->dropletLimit."\n";
-        echo 'UUID: '.DigitalOcean::account()->getUserInformation()->uuid."\n";
-        echo 'Email Verified: '.DigitalOcean::account()->getUserInformation()->emailVerified."\n";
+        //echo 'Email: '.DigitalOcean::account()->getUserInformation()->email."\n";
+        //echo 'Droplet Limit: '.DigitalOcean::account()->getUserInformation()->dropletLimit."\n";
+        //echo 'UUID: '.DigitalOcean::account()->getUserInformation()->uuid."\n";
+        //echo 'Email Verified: '.DigitalOcean::account()->getUserInformation()->emailVerified."\n";
 
         /******** Return the Action API ********/
         //print_r(DigitalOcean::action()->getAll());
@@ -90,7 +90,9 @@ class test extends Controller
         //print_r(DigitalOcean::droplet()->getUpgrades());
 
         // return the Droplet entity 123
-        print_r(DigitalOcean::droplet()->getById(1484845));
+        //print_r(DigitalOcean::droplet()->getById(1484845));
+
+        return response()->json([DigitalOcean::droplet()->getById(1484845)]);
 
         // create and return the created Droplet entity
         //print_r(DigitalOcean::droplet()->create('kamau-2014', 'nyc1', '512mb', 78449676388));
