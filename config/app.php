@@ -137,6 +137,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
         GrahamCampbell\DigitalOcean\DigitalOceanServiceProvider::class,
+        GrahamCampbell\HTMLMin\HTMLMinServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -193,6 +194,7 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
         'DigitalOcean' => 'GrahamCampbell\DigitalOcean\Facades\DigitalOcean',
+        'HTMLMin' => 'GrahamCampbell\HTMLMin\Facades\HTMLMin',
 
     ],
 

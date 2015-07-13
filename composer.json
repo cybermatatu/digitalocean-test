@@ -8,7 +8,8 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.1.*",
         "graham-campbell/digitalocean": "~2.0",
-        "kriswallsmith/buzz": "~0.10"
+        "kriswallsmith/buzz": "~0.10",
+        "graham-campbell/htmlmin": "~4.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
