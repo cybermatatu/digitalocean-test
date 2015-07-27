@@ -16,8 +16,7 @@ class test extends Controller
      *
      * @return Response
      */
-    public function index()
-    {
+    public function index() {
         
     }
 
@@ -38,7 +37,7 @@ class test extends Controller
         /******** Return the Action API ********/
         //print_r(DigitalOcean::action()->getAll());
         /************** Actions **************/
-        //print_r(DigitalOcean::action()->getById(56119513));
+        //print_r(DigitalOcean::acltion()->getById(56119513));
 
         /*********** Return the domain API ***********/
         //print_r(DigitalOcean::domain());
