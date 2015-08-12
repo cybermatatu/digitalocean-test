@@ -139,6 +139,7 @@ return [
         GrahamCampbell\DigitalOcean\DigitalOceanServiceProvider::class,
         GrahamCampbell\HTMLMin\HTMLMinServiceProvider::class,
         Dingo\Api\Provider\LaravelServiceProvider::class,
+        UxWeb\SweetAlert\SweetAlertServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -195,7 +196,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
         'DigitalOcean' => 'GrahamCampbell\DigitalOcean\Facades\DigitalOcean',
-        'HTMLMin' => 'GrahamCampbell\HTMLMin\Facades\HTMLMin',
+        'Alert' 	=> 'UxWeb\SweetAlert\SweetAlert',
+        'HTMLMin' 	=> 'GrahamCampbell\HTMLMin\Facades\HTMLMin',
 
     ],
 

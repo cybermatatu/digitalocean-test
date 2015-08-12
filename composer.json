@@ -10,7 +10,8 @@
         "graham-campbell/digitalocean": "~2.0",
         "kriswallsmith/buzz": "~0.10",
         "graham-campbell/htmlmin": "~4.0",
-        "dingo/api": "^0.9.0"
+        "dingo/api": "^0.9.0",
+        "uxweb/sweet-alert": "^1.1"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

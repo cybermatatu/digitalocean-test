@@ -111,6 +111,5 @@ class test extends Controller
 
         // power off droplet 123 and return the Action entity
         //print_r(DigitalOcean::droplet()->powerOff(6123868));
-
     }
 }
